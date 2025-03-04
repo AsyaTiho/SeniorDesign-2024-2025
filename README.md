@@ -8,6 +8,6 @@ We experienced I2C collapse when using both internal IMU Arduino sensor, so we a
 
 First launch Arduino file *current* version is **version2_February2.ino**. Ensure both sensors initialize and you see the output change in the **Serial Monitor** as you change the spatial axial position of the device. Once you see the output, please **CLOSE THE SERIAL MONITOR IN ARDUINO**.
 
-Proceed with launching python file  *current* version is **data_acq2.py**. You can launch both from the termonal or python IDE. This script handles writing the data into csv files. 
+Proceed with launching python file  *current* version is **data_acq2.py**. You can launch both from the terminal or python IDE. This script handles writing the data into csv files. 
 
 *More description to come on March 16th*
