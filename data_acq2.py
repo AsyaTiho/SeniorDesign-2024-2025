@@ -32,8 +32,8 @@ with open(csv_filename, 'w', newline='') as csvfile:
     csv_writer = csv.writer(csvfile)
 
     # Write header
-    # "pitch,roll,yaw,pressure,temperature,CRC_expected,CRC_calculated"
-    csv_writer.writerow(['pitch', 'roll', 'yaw', 'pressure', 'temperature', 'CRC_expected', 'CRC_calculated'])
+    # pitch,roll,yaw,pressure,temperature,CRC_expected,CRC_calculated
+    csv_writer.writerow(['tilt', 'pressure', 'temperature', 'CRC_expected', 'CRC_calculated'])
 
     # Send start command
     s.write(b'start\r\n')
@@ -44,7 +44,7 @@ with open(csv_filename, 'w', newline='') as csvfile:
     s.readline()
 
     # Print header
-    print('pitch,roll,yaw,pressure,temperature,CRC_expected,CRC_calculated')
+    print('tilt,pressure,temperature,CRC_expected,CRC_calculated')
 
     try:
         while True:
