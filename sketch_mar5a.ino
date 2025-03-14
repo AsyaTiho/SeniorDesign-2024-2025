@@ -1,5 +1,5 @@
 #include <Wire.h>
-#include "MS5803_02.h"
+#include "MS5803_14.h"
 #include <Arduino_LSM6DS3.h>
 
 // MS5803 sensor with oversampling = 512
