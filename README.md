@@ -8,7 +8,7 @@ We experienced I2C collapse when using both internal IMU Arduino sensor, so we a
 
 To run our scripts, you need to manually installed Arduino library as explained in the Manuall Installation section of this tutorial: https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/
 
-First launch Arduino file. *Current* version is **sketch_march5.ino*. The file includes initiation of the internal accelerometer and gyroscope sensors embedded on Arduino Nano 33 IOT and the initiation of the pressure sensor connected to the atduino via I2C protocol. Refer to the following link for the wiring schema: **link is coming soon**. 
+First launch Arduino file. *Current* version is **sketch_march5.ino**. The file includes initiation of the internal accelerometer and gyroscope sensors embedded on Arduino Nano 33 IOT and the initiation of the pressure sensor connected to the atduino via I2C protocol. Refer to the following link for the wiring schema: **link is coming soon**. 
 
 If your machine is not initiating the sensors, it might be having an issue with an I2C protocol. We include a script (**scan_for_pressure_sensor**) for scanning of I2C addresses that could be used for debugging the I2C connection. Tutorial on how to resolve I2C connection issues is not included in this repository. 
 
